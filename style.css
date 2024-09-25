@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 2rem;
+  letter-spacing: 1px;
+  background-color: hsl(0, 0%, 100%);
+}
+h1 {
+  font-size: 40px;
+}
+p,
+li,
+b {
+  font-family: Outfit;
+  color: hsl(30, 10%, 34%);
+}
+h1,
+h3,
+h2 {
+  font-family: Young Serif;
+  font-weight: 400;
+}
+h2,
+h3,
+.nutrition b,
+.instructions ol li::marker,
+.ingredients ul li::marker {
+  color: hsl(14, 45%, 36%);
+}
+#omeleimg {
+  border-radius: 20px;
+  display: block;
+  max-width: 100%;
+}
+div p {
+  font-family: Outfit;
+  font-size: 16px;
+}
+header {
+  padding: 20px 0;
+  /* border: 1px solid rebeccapurple; */
+}
+.intro,
+.ingredients,
+.instructions,
+.nutrition {
+  padding: 25px 0;
+}
+.ingredients,
+.instructions {
+  border-bottom: 2px solid hsla(15, 4%, 18%, 0.07);
+}
+.pretime {
+  background-color: hsl(330, 100%, 98%);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 20px;
+  padding: 30px;
+}
+.pretime h3,
+.pretime ul li::marker {
+  color: hsl(332, 51%, 32%);
+}
+.pretime ul,
+.ingredients ul,
+.instructions ol {
+  padding-top: 20px;
+  padding-left: 35px;
+}
+.pretime li,
+.ingredients li,
+.instructions li {
+  padding: 10px 0;
+  padding-left: 20px;
+}
+.nutrition ul {
+  list-style: none;
+}
+.nutrition p {
+  padding-top: 20px;
+}
+.instructions ol li::marker {
+  font-weight: bold;
+}
+.contain {
+  /* display: flex;
+  justify-content: space-between;
+  padding: 0; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.nutrition ul {
+  padding: 20px 0;
+}
+.nutrition li {
+  padding-top: 5px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  border-bottom: 2px solid hsla(15, 4%, 18%, 0.07);
+}
